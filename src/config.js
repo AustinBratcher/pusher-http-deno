@@ -1,5 +1,5 @@
 import Token from './token.js';
-import isBase64 from 'npm:is-base64@1.1.0';
+import { isBase64 } from "https://deno.land/x/segno@v1.1.0/lib/validations/isBase64.ts"
 
 function Config(options) {
   options = options || {}
